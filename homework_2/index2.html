@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style type="text/css">
+		tbody td{ 
+			height: 60px; 
+			width: 60px;
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		th{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		tfoot td{
+			border: 1px solid black;
+			border-collapse: collapse;
+			text-align: center;
+		}
+		.hair{
+			background-color: black;
+			border-collapse: collapse;
+			color: white;
+		}
+		.eyes{
+			text-align: center;
+		}
+		.mouth{
+			text-align: center;
+		}
+		.nouth{
+			text-align: center;
+		}
+	</style>
+	<title>Тейбл</title>
+</head>
+<body>
+	<table>
+		<caption>FACE</caption>
+		<thead>
+			<tr>
+				<th colspan="10" class="hair">Волосы</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td class="hair" colspan="10">Волосы</td>
+				
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td colspan="3" rowspan="2" bgcolor="brown" class="eyes">Глаз</td>
+				<td></td>
+				<td></td>
+				<td colspan="3" rowspan="2" bgcolor="brown" class="eyes">Глаз</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td colspan="2" rowspan="2" bgcolor="brown" class="nouth">Нос</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class="hair"> Волосы</td>
+				<td class="hair">Волосы</td>
+				<td class="hair">Волосы</td>
+				<td class="hair">Волосы</td>
+				<td class="hair">Волосы</td>
+				<td class="hair">Волосы</td>
+				<td class="hair">Волосы</td>
+				<td class="hair">Волосы</td>
+				<td class="hair">Волосы</td>
+				<td class="hair">Волосы</td>
+			</tr>
+			<tr>
+				<td class="hair">Волосы</td>
+				<td class="hair">Волосы</td>
+				<td colspan="6" bgcolor="brown" class="mouth">Рот</td>
+				<td class="hair">Волосы</td>
+				<td class="hair">Волосы</td>
+			</tr>
+			</tbody>
+		</table>
+	</table>
+	<form action="file:///D:/Users/1/Desktop/%D0%9A%D1%83%D1%80%D1%81%D1%8B%20%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB%D0%B0%20%D0%9C%D0%B0%D0%BB%D1%8B%D1%88%D0%B5/index2.html">
+		<p>
+			<label>Логин:
+				<input type="text" name="login">
+			</label>
+		</p>
+		<p>		
+			<label>Пароль:
+				<input type="password" name="password">
+			</label>
+		</p>
+		<p>	
+			<label>М
+	 			<input type="radio" name="sex">
+	 		</label>
+	 		<label>Ж
+	 			<input type="radio" name="sex" value="М">
+	 		</label>
+	 	</p>
+	 	<p>	
+	 		<label>Лол
+    			<input type="checkbox" name="mem">
+    		</label>
+    	</p>
+    	<p>
+    		<label>Кек
+    			<input type="checkbox" name="mem">
+    		</label>
+    	</p>
+    	<p>
+    		<label>Чебурек
+    			<input type="checkbox" name="mem">
+    		</label>
+    	</p>
+    	<p> Загрузить мемас
+    		<input type="file">
+    	</p>
+    	<input type="reset"> <br>
+    	<input type="submit"><br>
+    	<input type="button" value="Кнопка"><br>
+    	<p>	
+    		<label>e-mail:
+    			<input type="email">
+    		</label>
+    	</p>
+    	<p>	
+    		<label>Найти:
+    			<input type="search">
+    		</label>
+    	</p>
+    	<p>	
+    		<label>Телефон:
+    			<input type="tel">
+    		</label>
+    	</p>
+    	<p>	
+    		<label>URL адрес:
+    			<input type="url" name="...">
+    		</label>
+    	</p>
+    	<p>	
+    		<label>Тут только четные числа
+    			<input type="number" min="2" max="228" step="2">
+    		</label>
+    	</p>
+    	<p>	
+    		<label>Ползунок. Он ползает.
+    			-228<input type="range" min="-228" max="228" step="1">228
+    		</label>
+    	</p>
+    	<p>Ленинград:</p>
+    	<select name="..." size="..." multiple>
+    		<option value="...">Экспонат</option>
+    		<option value="...">Ч.П.Х.</option>
+       		<option value="...">В Питере - пить</option>
+       		<option value="...">Экстаз</option>
+       		<option value="...">Сиськи</option>
+		</select>
+		
+	</form>	
+</body>
+</html>
